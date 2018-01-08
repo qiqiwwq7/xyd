@@ -1,5 +1,6 @@
 <template>
   <div id="app" style="height: 100%;" :class="rootClass">
+    <link rel="stylesheet" :href="href">
     <div v-transfer-dom>
       <loading v-model="loading"></loading>
     </div>
@@ -28,7 +29,7 @@
     name: 'app',
     data () {
       return {
-        rootClass: 'app-default'
+        rootClass: 'app-primary'
       }
     },
     directives: {
@@ -57,7 +58,7 @@
 </script>
 
 <style lang="less">
-  // @import 'assets/less/pages/app.less';
+  @import 'assets/less/use.less';
   // .vux-flexbox .vux-flexbox-item {
   //   height: 100%;
   //   position: relative;
