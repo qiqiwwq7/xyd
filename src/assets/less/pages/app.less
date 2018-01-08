@@ -1,0 +1,81 @@
+.vux-flexbox .vux-flexbox-item {
+    height: 100%;
+    position: relative;
+  }
+  .vux-loading .weui-toast {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: rgba(39, 61, 98, .9);
+  }
+  .vux-toast .weui-toast {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: rgba(39, 61, 98, .9);
+  }
+  .vux-toast .weui-toast .weui-toast__content {
+    font-size: 1.1rem;
+  }
+  .vux-x-dialog .weui-dialog {
+    // background: rgba(39, 61, 98, 1);
+    background: @theme-color;
+    color: #E6ECF5;
+  }
+  .vux-x-dialog .weui-dialog .weui-dialog__ft {
+    line-height: 45px;
+    font-size: 1.1rem;
+  }
+  .vux-x-dialog .weui-dialog .weui-dialog__title {
+    font-weight: 400;
+    font-size: 1.1rem;
+  }
+  .vux-x-dialog .weui-dialog .weui-dialog__btn {
+    font-weight: 400;
+  }
+  .vux-x-dialog .weui-dialog .weui-dialog__btn:active {
+    background-color: #FDD059;
+    color: #1E2B40;
+  }
+  .vux-x-dialog .weui-dialog .weui-dialog__btn_default {
+    color: #E6ECF5;
+  }
+  .vux-x-dialog .weui-dialog .weui-dialog__btn_primary {
+    color: #E6ECF5;
+  }
+
+  .fade-enter-active {
+    transition: opacity .5s
+  }
+  .fade-enter {
+    opacity: 0
+  }
+
+  .table {
+    display: table;
+    table-layout: fixed;
+  }
+  .table .table-row {
+    display: table-row;
+  }
+  .table .table-row .table-cell {
+    display: table-cell;
+  }
+
+  .ellipsis {
+    white-space: nowrap;
+    word-wrap: normal;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #586B85;
+  }
+  input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #586B85;
+  }

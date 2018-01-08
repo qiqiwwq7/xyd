@@ -1,0 +1,78 @@
+.app-default .vux-flexbox .vux-flexbox-item {
+  height: 100%;
+  position: relative;
+}
+.app-default .vux-loading .weui-toast {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: rgba(39, 61, 98, 0.9);
+}
+.app-default .vux-toast .weui-toast {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: rgba(39, 61, 98, 0.9);
+}
+.app-default .vux-toast .weui-toast .weui-toast__content {
+  font-size: 1.1rem;
+}
+.app-default .vux-x-dialog .weui-dialog {
+  background: red;
+  color: #E6ECF5;
+}
+.app-default .vux-x-dialog .weui-dialog .weui-dialog__ft {
+  line-height: 45px;
+  font-size: 1.1rem;
+}
+.app-default .vux-x-dialog .weui-dialog .weui-dialog__title {
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.app-default .vux-x-dialog .weui-dialog .weui-dialog__btn {
+  font-weight: 400;
+}
+.app-default .vux-x-dialog .weui-dialog .weui-dialog__btn:active {
+  background-color: #FDD059;
+  color: #1E2B40;
+}
+.app-default .vux-x-dialog .weui-dialog .weui-dialog__btn_default {
+  color: #E6ECF5;
+}
+.app-default .vux-x-dialog .weui-dialog .weui-dialog__btn_primary {
+  color: #E6ECF5;
+}
+.app-default .fade-enter-active {
+  transition: opacity 0.5s;
+}
+.app-default .fade-enter {
+  opacity: 0;
+}
+.app-default .table {
+  display: table;
+  table-layout: fixed;
+}
+.app-default .table .table-row {
+  display: table-row;
+}
+.app-default .table .table-row .table-cell {
+  display: table-cell;
+}
+.app-default .ellipsis {
+  white-space: nowrap;
+  word-wrap: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.app-default input::-webkit-input-placeholder,
+.app-default textarea::-webkit-input-placeholder {
+  color: #586B85;
+}
+.app-default input:-moz-placeholder,
+.app-default textarea:-moz-placeholder {
+  color: #586B85;
+}
