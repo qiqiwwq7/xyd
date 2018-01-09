@@ -1,6 +1,6 @@
 <template>
   <div id="app" style="height: 100%;" :class="rootClass">
-    <link rel="stylesheet" :href="href">
+    <!-- <link rel="stylesheet" :href="href"> -->
     <div v-transfer-dom>
       <loading v-model="loading"></loading>
     </div>

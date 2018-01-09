@@ -20,7 +20,7 @@
   font-size: 1.1rem;
 }
 .app-default .vux-x-dialog .weui-dialog {
-  background: red;
+  background: #ffe26d;
   color: #E6ECF5;
 }
 .app-default .vux-x-dialog .weui-dialog .weui-dialog__ft {
@@ -75,4 +75,198 @@
 .app-default input:-moz-placeholder,
 .app-default textarea:-moz-placeholder {
   color: #586B85;
+}
+.app-default .outer {
+  height: 100%;
+  box-sizing: border-box;
+}
+.app-default .outer .center {
+  height: 100%;
+}
+.app-default .category-tab {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.app-default .category-tab-item {
+  position: relative;
+  border-radius: 0;
+  border: 0;
+  color: #C5CBD8;
+  font-size: 1.1rem;
+  font-weight: 300;
+  background-color: #1A2635;
+  box-sizing: border-box;
+}
+.app-default .category-tab-item.vux-button-tab-item-first:after,
+.app-default .category-tab-item.vux-button-tab-item-middle:after,
+.app-default .category-tab-item.vux-button-tab-item-last:after {
+  border-radius: 0;
+  border: 0;
+}
+.app-default .category-tab-item:first-child,
+.app-default .category-tab-item:last-child {
+  border-radius: 0;
+  border: 0;
+  background-clip: border-box;
+}
+.app-default .category-tab-item.vux-button-group-current,
+.app-default .category-tab-item.hover,
+.app-default .category-tab-item:active {
+  border-radius: 0;
+  border: 0;
+  color: #EAC56B;
+  background-size: 100% 100%;
+}
+.app-default .category-tab-item .category {
+  padding: 10px;
+  position: absolute;
+  height: 70px;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.app-default .category > img {
+  width: 100%;
+}
+.app-default .category > i {
+  font-size: 35px;
+}
+.app-primary .vux-flexbox .vux-flexbox-item {
+  height: 100%;
+  position: relative;
+}
+.app-primary .vux-loading .weui-toast {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: rgba(39, 61, 98, 0.9);
+}
+.app-primary .vux-toast .weui-toast {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: rgba(39, 61, 98, 0.9);
+}
+.app-primary .vux-toast .weui-toast .weui-toast__content {
+  font-size: 1.1rem;
+}
+.app-primary .vux-x-dialog .weui-dialog {
+  background: #2ca8b1;
+  color: #E6ECF5;
+}
+.app-primary .vux-x-dialog .weui-dialog .weui-dialog__ft {
+  line-height: 45px;
+  font-size: 1.1rem;
+}
+.app-primary .vux-x-dialog .weui-dialog .weui-dialog__title {
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.app-primary .vux-x-dialog .weui-dialog .weui-dialog__btn {
+  font-weight: 400;
+}
+.app-primary .vux-x-dialog .weui-dialog .weui-dialog__btn:active {
+  background-color: #FDD059;
+  color: #1E2B40;
+}
+.app-primary .vux-x-dialog .weui-dialog .weui-dialog__btn_default {
+  color: #E6ECF5;
+}
+.app-primary .vux-x-dialog .weui-dialog .weui-dialog__btn_primary {
+  color: #E6ECF5;
+}
+.app-primary .fade-enter-active {
+  transition: opacity 0.5s;
+}
+.app-primary .fade-enter {
+  opacity: 0;
+}
+.app-primary .table {
+  display: table;
+  table-layout: fixed;
+}
+.app-primary .table .table-row {
+  display: table-row;
+}
+.app-primary .table .table-row .table-cell {
+  display: table-cell;
+}
+.app-primary .ellipsis {
+  white-space: nowrap;
+  word-wrap: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.app-primary input::-webkit-input-placeholder,
+.app-primary textarea::-webkit-input-placeholder {
+  color: #586B85;
+}
+.app-primary input:-moz-placeholder,
+.app-primary textarea:-moz-placeholder {
+  color: #586B85;
+}
+.app-primary .outer {
+  height: 100%;
+  box-sizing: border-box;
+}
+.app-primary .outer .center {
+  height: 100%;
+}
+.app-primary .category-tab {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.app-primary .category-tab-item {
+  position: relative;
+  border-radius: 0;
+  border: 0;
+  color: #C5CBD8;
+  font-size: 1.1rem;
+  font-weight: 300;
+  background-color: #1A2635;
+  box-sizing: border-box;
+}
+.app-primary .category-tab-item.vux-button-tab-item-first:after,
+.app-primary .category-tab-item.vux-button-tab-item-middle:after,
+.app-primary .category-tab-item.vux-button-tab-item-last:after {
+  border-radius: 0;
+  border: 0;
+}
+.app-primary .category-tab-item:first-child,
+.app-primary .category-tab-item:last-child {
+  border-radius: 0;
+  border: 0;
+  background-clip: border-box;
+}
+.app-primary .category-tab-item.vux-button-group-current,
+.app-primary .category-tab-item.hover,
+.app-primary .category-tab-item:active {
+  border-radius: 0;
+  border: 0;
+  color: #EAC56B;
+  background-size: 100% 100%;
+}
+.app-primary .category-tab-item .category {
+  padding: 10px;
+  position: absolute;
+  height: 70px;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.app-primary .category > img {
+  width: 100%;
+}
+.app-primary .category > i {
+  font-size: 35px;
 }

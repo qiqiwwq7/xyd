@@ -7,21 +7,19 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background: rgba(39, 61, 98, .9);
+  background: rgba(39, 61, 98, 0.9);
 }
 .vux-toast .weui-toast {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background: rgba(39, 61, 98, .9);
+  background: rgba(39, 61, 98, 0.9);
 }
 .vux-toast .weui-toast .weui-toast__content {
   font-size: 1.1rem;
 }
 .vux-x-dialog .weui-dialog {
-  // background: rgba(39, 61, 98, 1);
-  background: @theme-color;
   color: #E6ECF5;
 }
 .vux-x-dialog .weui-dialog .weui-dialog__ft {
@@ -45,14 +43,12 @@
 .vux-x-dialog .weui-dialog .weui-dialog__btn_primary {
   color: #E6ECF5;
 }
-
 .fade-enter-active {
-  transition: opacity .5s
+  transition: opacity 0.5s;
 }
 .fade-enter {
-  opacity: 0
+  opacity: 0;
 }
-
 .table {
   display: table;
   table-layout: fixed;
@@ -63,7 +59,6 @@
 .table .table-row .table-cell {
   display: table-cell;
 }
-
 .ellipsis {
   white-space: nowrap;
   word-wrap: normal;
@@ -72,10 +67,11 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
   color: #586B85;
 }
-input:-moz-placeholder, textarea:-moz-placeholder {
+input:-moz-placeholder,
+textarea:-moz-placeholder {
   color: #586B85;
 }

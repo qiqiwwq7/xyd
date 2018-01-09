@@ -1,17 +1,15 @@
 .theme(@theme-color: #2ca8b1, @img1) {
-  // @import 'plugin';
   @import 'pages/app';
+  @import 'pages/NavComponent';
 }
 
 .app-default {
   @import 'deploy/default';
-  // @theme-color: #ffe26d;
   .theme(@theme-color, @img1);
 }
 
 .app-primary {
   @import 'deploy/primary';
-  // @import 'skin/primary';
   @theme-color: #2ca8b1;
   .theme(@theme-color, @img1);
 }
